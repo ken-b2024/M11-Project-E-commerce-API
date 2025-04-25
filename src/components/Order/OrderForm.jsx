@@ -84,7 +84,7 @@ const OrderForm = () => {
 
     return (
         <Container>
-            <form onSubmit={handleSubmit} className="order-form">
+            <form onSubmit={handleSubmit} className="d-inline-flex flex-column order-form">
                 <h3 className="mt-5 mb-4 text-center fw-bold text-white">Create New Order</h3>
                 <Form.Group>
                     <Form.Label className="text-white">

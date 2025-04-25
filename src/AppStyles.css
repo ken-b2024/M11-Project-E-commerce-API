@@ -66,6 +66,10 @@ nav a:active {
   display: table;
 }
 
+.order-form {
+  margin-left: 25rem;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -122,6 +126,9 @@ nav a:active {
   .create-order {
     margin-left: 32%;
   }
+  .order-form {
+    margin-left: 10rem;
+  }
 }
 
 @media screen and (max-width: 766px) {
@@ -133,5 +140,14 @@ nav a:active {
 @media screen and (max-width: 404px) {
   .order-list {
     margin-left: 2rem;
+  }
+  .order-form {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 301px) {
+  .order-form {
+    margin-left: 1rem;
   }
 }
