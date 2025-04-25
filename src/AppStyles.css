@@ -1,0 +1,137 @@
+body {
+  background: radial-gradient(circle, grey, black);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.home-header {
+  color: white;
+  font-size: 28pt;
+}
+
+.customer-list {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+li:hover {
+  background-color: #eaeaea;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a:active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.fade-In {
+  animation: fadeIn 3s ease-in, slideUp 1.5s ease-in;
+}
+
+.quantity-box {
+  max-width: 80px;
+}
+
+.id-box {
+  max-width: 80px;
+}
+
+.date-box {
+  max-width: 200px;
+}
+
+.order-list {
+  max-width: 350px;
+  margin-left: 30rem;
+}
+
+.create-order {
+  margin-left: 42%;
+}
+
+@media screen and (max-width: 1198px) {
+  .order-list {
+    margin-left: 20rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .order-list {
+    margin-left: 10rem;
+  }
+  .create-order {
+    margin-left: 32%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .order-list {
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (max-width: 404px) {
+  .order-list {
+    margin-left: 2rem;
+  }
+}
